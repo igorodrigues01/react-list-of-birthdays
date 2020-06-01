@@ -50,21 +50,21 @@ const BirthdayList = (props) => {
     }
   ];
 
-  const data = new Date();
-  const monthNow = (data.getMonth() + 1)
+//   const data = new Date();
+//   const monthNow = (data.getMonth() + 1)
 
-  function getBirthdaysOfMonth() {
-    const toMonth = users.map(({ dateBirthday }) => {
-      return dateBirthday.month;
-    });
-    const filterMonth = toMonth.filter((month === 11) => {
-  return month;
-})
-return filterMonth
-    // console.log(toMonth)
-  }
+//   function getBirthdaysOfMonth() {
+//     const toMonth = users.map(({ dateBirthday }) => {
+//       return dateBirthday.month;
+//     });
+//     const filterMonth = toMonth.filter((month === 11) => {
+//   return month;
+// })
+// return filterMonth
+//     // console.log(toMonth)
+//   }
 
-console.log(getBirthdaysOfMonth());
+// console.log(getBirthdaysOfMonth());
 
   return (
     <React.Fragment>

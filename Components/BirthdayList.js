@@ -66,8 +66,6 @@ return filterMonth
 
 console.log(getBirthdaysOfMonth());
 
-const isShow = true;
-if (isShow) {
   return (
     <React.Fragment>
       <ul className="birthday-list">
@@ -83,11 +81,4 @@ if (isShow) {
       </ul>
     </React.Fragment>
   )
-} else {
-  return (
-    <div>
-      <p>Não há mais aniversariantes neste mês.</p>
-    </div>
-  )
-}
 }

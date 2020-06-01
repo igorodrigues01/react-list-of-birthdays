@@ -44,7 +44,7 @@ const BirthdayList = (props) => {
       lastName: 'Fernandes',
       office: 'chefe',
       dateBirthday: {
-        day: 2,
+        day: 1,
         month: 6
       }
     },

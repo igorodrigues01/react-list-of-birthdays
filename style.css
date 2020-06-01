@@ -1,3 +1,4 @@
+/* reset */
 body, html {
   padding: 0;
   margin: 0;
@@ -20,8 +21,10 @@ ul {
 ul {
   list-style: none;
 }
-#root > h3 {text-align: center; margin: 24px 0;}
+
 /* birthday */
+#root > h3 {text-align: center; margin: 24px 0;}
+
 .birthday {
   width: 90%;
   max-width: 440px;
@@ -50,6 +53,7 @@ img.birthday_image.image-send {
   opacity: .5;
 }
 .birthday_personal {
+  width:100%;
   max-width: 160px;
 }
 .birthday_personal h3 {

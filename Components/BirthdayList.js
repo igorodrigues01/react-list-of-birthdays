@@ -47,6 +47,24 @@ const BirthdayList = (props) => {
         day: 2,
         month: 6
       }
+    },
+    {
+      name: 'Maria',
+      lastName: 'João',
+      office: 'Gerente',
+      dateBirthday: {
+        day: 2,
+        month: 6
+      }
+    },
+    {
+      name: 'Mario',
+      lastName: 'Sergio',
+      office: 'Gerente de Produto',
+      dateBirthday: {
+        day: 4,
+        month: 6
+      }
     }
   ];
 
